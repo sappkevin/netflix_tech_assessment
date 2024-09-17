@@ -95,5 +95,5 @@ This repository contains Python scripts for the Senior Systems Engineer Technica
 
 
 
-How Google Drive API Works:
+How Google Workspace API Works:
 [![Google Auth Workflow](./public/google_auth_high_level.png)](https://developers.google.com/workspace/guides/auth-overview)
