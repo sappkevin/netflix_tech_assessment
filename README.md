@@ -70,7 +70,7 @@ This repository contains Python scripts for the Senior Systems Engineer Technica
 - These scripts are designed to run on Unix-based or MacOS systems.
 
 ## Future Enhancements
-1) Create Github Actions to perform Google API tasks - must be fast jobs (limited by Github resources allocated)
+1) Create Github Actions to perform Google API tasks - must be short duration jobs (due to Github action timeout limits)
 2) Can create a Dockerfile for more advanced tasks or moving bigger jobs to GKS
 3) Add a dashboard, Python Graph, or website (Firebase UI) to visualize the data using Grafana or Prometheus 
 4) Add more logging to use for data needed to create self-healing
