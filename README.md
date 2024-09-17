@@ -6,7 +6,7 @@ This repository contains Python scripts for the Senior Systems Engineer Technica
 
 - A personal Gmail account with Google Drive enabled
 - A Google Cloud Platform (GCP) project
-- Python 3.10+ installed on a Unix-based or MacOS system
+- Python 3.9+ installed on a Unix-based or MacOS system
 - Client credentials for GCP project
 - [pip](https://pypi.python.org/pypi/pip) (Package Management Tool)
 - Source Folder ID
@@ -45,6 +45,15 @@ This repository contains Python scripts for the Senior Systems Engineer Technica
 
 - These scripts are designed to run on Unix-based or MacOS systems.
 
+## Future Enhancements
+1) Create Github Actions to perform Google API tasks - must be fast jobs (limited by Github resources allocated)
+2) Can create a Dockerfile for more advanced tasks or moving bigger jobs to GKS
+3) Add a dashboard, Python Graph, or website (Firebase UI) to visualize the data using Grafana or Prometheus 
+4) Add more logging to use for data needed to create self-healing
+5) Add feature to send scheduled email reports
+6) Use Google Function to scheduled runs
+7) Log actions to a database for rollback or replaying changes
+
 ## References
 
 1. [Google Drive API v3 Documentation](https://developers.google.com/drive/api/v3/about-sdk)
@@ -57,5 +66,10 @@ This repository contains Python scripts for the Senior Systems Engineer Technica
 8. [Upload files](https://developers.google.com/drive/api/v3/manage-uploads)
 9. [Google Cloud Platform](https://cloud.google.com/)
 10. [Google Workspace API Workflow](https://developers.google.com/workspace/guides/auth-overview)
+11. [Google Drive List files](https://developers.google.com/drive/api/reference/rest/v3/files/list)
+12. [Google Drive MimeTypes](https://developers.google.com/drive/api/guides/mime-types)
 
 
+
+How Google Drive API Works:
+![Alt text](images/google_auth_high_level.png?raw=true "Google Auth Workflow")

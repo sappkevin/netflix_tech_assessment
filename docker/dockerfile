@@ -1,0 +1,27 @@
+# This is just an example of containerizing the assignment for automation of workload jobs for
+# a real Netflix team project
+# PROS: More scalable. Not having to deal with package conflicts and requirements changing. Good for small batch jobs
+# CONS: This would be overkill for a simple project. Google Functions or python virtual env could be a better alternative/approach 
+
+FROM python:3.10-slim
+
+WORKDIR /app
+
+COPY . /app
+
+# Install package requirements
+RUN pip install --no-cache-dir -r requirements.txt
+
+# Run app.py when the container launches
+CMD ["python", "assessment3.py"]
+
+
+## RUN FROM DOCKER CMD LINE
+# Run assessment1.py
+#docker run -it --rm google-drive-project assessment1.py
+
+# Run assessment2.py
+#docker run -it --rm google-drive-project assessment2.py
+
+# Run assessment3.py (default)
+#docker run -it --rm google-drive-project
