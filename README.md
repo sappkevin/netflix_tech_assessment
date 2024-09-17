@@ -1,5 +1,5 @@
 # Senior Systems Engineer Technical Assessment
-
+[![Netflix](./public/Netflix_logo.png)]
 This repository contains Python scripts for the Senior Systems Engineer Technical Assessment at Netflix. This project provides scripts to analyze and copy folders in Google Drive using the Google Drive v3 API. It consists of three main assessments, each performing a specific task.
 
 ## Prerequisites
@@ -39,6 +39,16 @@ This repository contains Python scripts for the Senior Systems Engineer Technica
 ├── assessment2.py
 ├── assessment3.py
 ├── utils.py
+├── config.py
+├── requirements.txt
+├── setup.py
+├── analysis
+├── public
+├── reports
+├── docker
+   ├── assessment1_report.json
+   ├── assessment2_report.csv
+   ├── assessment3_report.log
 ```
 
 ## Notes
@@ -72,4 +82,4 @@ This repository contains Python scripts for the Senior Systems Engineer Technica
 
 
 How Google Drive API Works:
-![Alt text](images/google_auth_high_level.png?raw=true "Google Auth Workflow")
+[![Google Auth Workflow](./public/google_auth_high_level.png)](https://developers.google.com/workspace/guides/auth-overview)
