@@ -11,3 +11,6 @@ Security
 - API rate limit 
 - Automate token refresh : implement automatic token refreshing; use Oauth2.0 refresh token implementation
 - Role based access controls : based on needs for the script
+
+Test
+- Cover more edge cases for unit testing (ex: Empty folder, permission issues, etc)
