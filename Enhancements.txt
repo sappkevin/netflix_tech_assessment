@@ -1,0 +1,13 @@
+Ideas
+- Continue to improve error handling 
+- Batch API calls together to reduce the number of HTTP connections your client has to make
+- Add pagination to receive only a subset of data to reduce the size of request
+- Make parallel request 
+- Rate limiting logic based on Google Service limitation and add delays between requests
+- Add caching to improve performance 
+- Add asyncio concurrent: https://docs.python.org/3/library/asyncio.html
+
+Security 
+- API rate limit 
+- Automate token refresh : implement automatic token refreshing; use Oauth2.0 refresh token implementation
+- Role based access controls : based on needs for the script
