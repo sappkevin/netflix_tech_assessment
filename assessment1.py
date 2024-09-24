@@ -22,8 +22,7 @@ def generate_root_report():
             
             report_data = {
                 "total_files": num_files,
-                "total_folders": num_folders,
-                "total_items": len(items)
+                "total_folders": num_folders
             }
 
             os.makedirs('./reports', exist_ok=True)
